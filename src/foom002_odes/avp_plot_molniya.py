@@ -20,12 +20,12 @@ plt.style.use( 'dark_background' )
 import matplotlib
 matplotlib.rcParams[ 'lines.linewidth' ] = 2
 
-# Molniya orbital elements
-raan = 30.0
-inc  = 63.4
-aop  = 270.0
-a    = 26600.0
-e    = 0.7
+# SwiftTutle orbital elements
+raan = 139.3811920815948
+inc  = 113.453816997171
+aop  = 152.9821676305871
+a    = 390331
+e    = 0.963225755046038
 coes = [ a, e, inc, 0.0, aop, raan ]
 
 sc_config = {
