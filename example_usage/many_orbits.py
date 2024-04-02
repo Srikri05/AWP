@@ -42,7 +42,7 @@ if __name__ == '__main__':
 				scs.append( sc )
 
 	rs = [ sc.states[ :, :3 ] for sc in scs ]
-	pt.plot_orbits( rs,
+	pt.plot_orbits(rs,
 		{
 		'traj_lws': 1,
 		'show'    : True
