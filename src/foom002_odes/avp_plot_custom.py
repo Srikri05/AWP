@@ -41,7 +41,7 @@ if __name__ == '__main__':
 		'colors'   : [ 'c' ],
 		'elevation': 13,
 		'azimuth'  : -13,
-		'legend'   : False, # you are the legend
+		'legend'   : False, 
 		'show'     : True
 		} )
 
